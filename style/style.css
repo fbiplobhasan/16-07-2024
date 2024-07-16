@@ -67,6 +67,18 @@ text-align: center;
   font-weight: 700;
   font-size: 4rem;
 }
+
+.banner-img{
+  width: 100%;
+}
+/*Responsive media query*/
+
+@media screen and (max-width: 576px) {
+ .navbar, .nav-links{
+  flex-direction: column;
+ } 
+}
+
 /*header style*/
 
 /* navbar related style */
